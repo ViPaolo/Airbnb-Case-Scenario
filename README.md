@@ -2,12 +2,18 @@
 This repo contains the data visualization business case for my Big Data Analytics class.
 The business case was a data-driven example 
 
-The end results included a flow chart 
+The data sources comes from different csv dataset, at which are included some assumptions and data manipulations, explained in the .pdf file inside the repo.
 
+The final Tableau flow is: 
+|[Final Flow](./flow%20airbnb.png)
 
 And the subsequent main two dashboards where on can wiew the selection of houses and towns according to different metrics. 
 
+![Aggregated Dashboard](./Aggregated%20Dashboard.png)
+The aggregated dashboards shows data based on the houses of a certain town and their average prices.
 
+Whereas the non-aggregated dashboard allows for checking individual houses, prices and features. 
+![Non-Aggregated Dashboard](./Explorative%20Dashboard%20-%20Individual%20Houses.png))
 
 
 ## Instructions 
