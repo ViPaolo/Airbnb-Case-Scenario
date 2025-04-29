@@ -13,7 +13,7 @@ And the subsequent main two dashboards where on can wiew the selection of houses
 The aggregated dashboards shows data based on the houses of a certain town and their average prices.
 
 Whereas the non-aggregated dashboard allows for checking individual houses, prices and features. 
-![Non-Aggregated Dashboard](./Explorative%20Dashboard%20-%20Individual%20Houses.png))
+![Non-Aggregated Dashboard](./Explorative%20Dashboard%20-%20Individual%20Houses.png)
 
 
 ## Instructions 
