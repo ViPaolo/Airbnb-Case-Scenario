@@ -1,23 +1,42 @@
-# Airbnb-Case-Scenario
-This repo contains the data visualization business case for my Big Data Analytics class.
-The business case was a data-driven example 
+# Airbnb-Case-Scenario: Data Visualization Project
 
-The data sources comes from different csv dataset, at which are included some assumptions and data manipulations, explained in the .pdf file inside the repo.
+This repository showcases a data visualization business case developed as a project for a Big Data Analytics class. It focuses on analyzing Airbnb data to derive insights through a data-driven approach.
 
-The final Tableau flow is found here:
-|[Final Flow](./flow%20airbnb.png)
+## Project Overview
 
-And the subsequent main two dashboards where on can wiew the selection of houses and towns according to different metrics. 
+The core of this project involves an in-depth analysis of Airbnb listing data. The process includes:
+*   **Data Sourcing**: Utilizing various CSV datasets.
+*   **Data Preparation**: Applying specific assumptions and performing data manipulations, which are detailed comprehensively in the `.pdf` documentation within this repository.
+*   **Visualization**: Developing a Tableau workflow and interactive dashboards to present key findings.
 
+## Tableau Deliverables
+
+The project culminates in a complete Tableau flow and two distinct dashboards designed to explore the Airbnb dataset.
+
+### Tableau Flow
+This image displays the overall data preparation and transformation flow in Tableau Prep.
+![Tableau Prep Flow](./flow%20airbnb.png)
+
+### Interactive Dashboards
+Two primary dashboards are provided for interactive data exploration:
+
+#### 1. Aggregated Dashboard
+This dashboard offers a high-level overview, presenting data based on aggregated metrics for houses within specific towns, primarily focusing on average prices and other key summary statistics.
 ![Aggregated Dashboard](./Aggregated%20Dashboard.png)
-The aggregated dashboards shows data based on the houses of a certain town and their average prices.
 
-Whereas the non-aggregated dashboard allows for checking individual houses, prices and features. 
-![Non-Aggregated Dashboard](./Explorative%20Dashboard%20-%20Individual%20Houses.png)
+#### 2. Explorative (Non-Aggregated) Dashboard
+Designed for granular insights, this dashboard allows users to examine individual houses, their specific pricing, features, and other detailed attributes, facilitating a deeper, non-aggregated exploration of the data.
+![Explorative Dashboard - Individual Houses](./Explorative%20Dashboard%20-%20Individual%20Houses.png)
 
+## Getting Started
 
-## Instructions 
-**Attention** 
-Latest tested with Tableau Desktop 2024.1 and Tableau Prep 2023.2.
-1. dowload the copy.
-2. Modify, inside Tableau prep and Desktop worksbook, the links to the original data.
+To interact with the Tableau workbooks and replicate the analysis:
+
+**Note on Compatibility**: This project was last tested with **Tableau Desktop 2024.1** and **Tableau Prep 2023.2**. Using different versions may require minor adjustments.
+
+### Instructions:
+
+1.  **Download the Repository**: Clone or download a copy of this repository to your local machine.
+2.  **Update Data Source Paths**: Inside both the Tableau Prep flow (`.tfl`) and Tableau Desktop workbook (`.twb`/`.twbx`) files, you will need to modify the data source links to point to the CSV files on your local system. Ensure the paths correctly reference the original data files downloaded with this repository.
+
+---
